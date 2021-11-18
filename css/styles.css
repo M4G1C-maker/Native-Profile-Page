@@ -799,8 +799,6 @@ img {
   }
   body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
   .section {
     padding: 6rem 0 2rem;
@@ -813,6 +811,7 @@ img {
     bottom: initial;
   }
   .header,
+  .main,
   .footer-container {
     padding: 0 1rem;
   }
@@ -833,7 +832,7 @@ img {
     margin-left: auto;
   }
   .home-container {
-    row-gap: 4rem;
+    row-gap: 5rem;
   }
   .home-content {
     padding-top: 5.5rem;
@@ -916,6 +915,7 @@ img {
 /* For large devices */
 @media screen and (min-width: 1024px) {
   .header,
+  .main,
   .footer-container {
     padding: 0;
   }
